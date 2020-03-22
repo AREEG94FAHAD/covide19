@@ -1,4 +1,3 @@
-
 # covide19
 install python 
 install pip
