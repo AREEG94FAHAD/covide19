@@ -15,5 +15,5 @@ web app for monitoring status " corona virus " in Iraq
 * in linux os run in terminal 
   * export FLASK_APP=app.py
   * flask run
-* go in your browser htt://127.0.0.1:5000
+* go in your browser http://127.0.0.1:5000
 
