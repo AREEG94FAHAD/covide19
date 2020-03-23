@@ -2,7 +2,7 @@
 ### Description
 web app for monitoring status " corona virus " in Iraq
 ### Features
-* show totlal numbers of deaths, comformed, and new status
+* show totla numbers of deaths, comformed, and new status
 ### Technologyes 
 * flask
 * chart.js
