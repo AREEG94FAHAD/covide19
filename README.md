@@ -4,7 +4,8 @@ web app for monitoring status " corona virus " in Iraq
 ### Features
 * show totlal numbers of deaths, comformed, and new status
 ### Technologyes 
-* flask, chart.js
+* flask
+* chart.js
 ## Project setup
 * install python 
 * install pip
