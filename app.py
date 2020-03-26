@@ -3,10 +3,10 @@ import json
 import requests
 
 from flask import Flask, render_template, request
-
+from flask_assets import Bundle,Environment
 
 app = Flask(__name__)
-app.config['DEBUG']=True
+
 
 
 @app.route("/")
@@ -25,10 +25,12 @@ def index():
     for i in f:
         confirmed.append(i['confirmed'])
     for i in f:
-        recovered.append(i['recovered'])
+        if i['recovered']!=None:
+            recovered.append(i['recovered'])
+    print(recovered)
     maxdeaths=max(deaths)
     maxconfirmed=max(confirmed)
     maxrecovered=max(recovered)
-    active=maxconfirmed - maxrecovered - maxdeaths
+    active=max(confirmed)-max(recovered)-max(deaths)
 
     return render_template("index.html", f=f,deaths=deaths,date=date,confirmed=confirmed,recovered=recovered,maxdeaths=maxdeaths,maxconfirmed=maxconfirmed,maxrecovered=maxrecovered, active=active)
