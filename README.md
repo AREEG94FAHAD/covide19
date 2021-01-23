@@ -19,5 +19,4 @@ web app for monitoring status " corona virus " in Iraq
 * go in your browser http://127.0.0.1:5000
 
 
-![Alt text](relative/path/to/https://static.scientificamerican.com/sciam/cache/file/44782A7E-8025-4A62-833DC6E4CF9A42CB_source.jpg?w=590&h=800&894CEEE1-0BE8-4122-A713699037806AFF?raw=true "Title")
-
+![Image description](https://static.scientificamerican.com/sciam/cache/file/44782A7E-8025-4A62-833DC6E4CF9A42CB_source.jpg?w=590&h=800&894CEEE1-0BE8-4122-A713699037806AFF)
